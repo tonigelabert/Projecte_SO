@@ -32,7 +32,8 @@ namespace WindowsFormsApplication1
         private void button3_Click(object sender, EventArgs e)
         {
             //Mensaje de desconexión
-            string mensaje = "0/";
+            string nom = textBox_Nom.Text;
+            string mensaje = "0/"+nom;
         
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             //MessageBox.Show(mensaje);
@@ -41,6 +42,7 @@ namespace WindowsFormsApplication1
             // Nos desconectamos
             this.BackColor = Color.Gray;
             server.Shutdown(SocketShutdown.Both);
+            Connectat = false;
             server.Close();
 
 
@@ -53,7 +55,7 @@ namespace WindowsFormsApplication1
                 //Creamos un IPEndPoint con el ip del servidor y puerto del servidor 
                 //al que deseamos conectarnos
                 IPAddress direc = IPAddress.Parse("192.168.56.102");
-                IPEndPoint ipep = new IPEndPoint(direc, 9080);
+                IPEndPoint ipep = new IPEndPoint(direc, 9050);
 
 
                 //Creamos el socket 
@@ -222,6 +224,37 @@ namespace WindowsFormsApplication1
             {
                 MessageBox.Show("Registra't per fer una consulta");
             }
+        }
+
+        private void LlistaConnectats_Click(object sender, EventArgs e)
+        {
+            llistaconnectat.Items.Clear();
+            string mensaje = "6/";
+            // Enviam al servidor la primera consulta
+            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            server.Send(msg);
+
+            //Recibimos la respuesta del servidor
+            byte[] msg2 = new byte[80];
+            server.Receive(msg2);
+            mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
+            MessageBox.Show(mensaje);
+            string[] llistatrossos = mensaje.Split('/');
+            //exemple 3/nom1/nom2/nom3
+            int numconnectats = Convert.ToInt32(llistatrossos[0]);
+            int i = 1;
+            while (i <= numconnectats)
+            {
+                llistaconnectat.Items.Add(llistatrossos[i]);
+                i = i + 1;
+            }
+
+           
+        }
+
+        private void llistaconnectat_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

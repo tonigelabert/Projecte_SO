@@ -104,3 +104,27 @@ C:\Users\andre\Google Drive\UPC2\3A\SO\Projecte\AplicacionConConexionDesconexion
 C:\Users\andre\Google Drive\UPC2\3A\SO\Projecte\AplicacionConConexionDesconexion\cliente_con_conexion_desconexion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\andre\Google Drive\UPC2\3A\SO\Projecte\AplicacionConConexionDesconexion\cliente_con_conexion_desconexion\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\andre\Google Drive\UPC2\3A\SO\Projecte\AplicacionConConexionDesconexion\cliente_con_conexion_desconexion\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Share\Projecte\Projecte_SO\Projecte_SO-master\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+D:\Share\V2\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Share\V2\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Share\V2\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Share\V2\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Share\V2\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+D:\Share\V2\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Share\V2\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Share\V2\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csprojResolveAssemblyReference.cache
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\andre\Google Drive\UPC2\3A\SO\PROJECTE\Projecte_SO\Client\WindowsFormsApplication1\obj\Debug\clienteForm.csproj.GenerateResource.Cache

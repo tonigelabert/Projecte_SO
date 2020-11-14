@@ -51,6 +51,8 @@
             this.textBox_nom2 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.LlistaConnectats = new System.Windows.Forms.Button();
+            this.llistaconnectat = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBoxRegister.SuspendLayout();
@@ -60,7 +62,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(29, 47);
+            this.label2.Location = new System.Drawing.Point(29, 48);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(159, 37);
@@ -89,6 +91,7 @@
             // Button_Enviar
             // 
             this.Button_Enviar.Location = new System.Drawing.Point(318, 254);
+            this.Button_Enviar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Button_Enviar.Name = "Button_Enviar";
             this.Button_Enviar.Size = new System.Drawing.Size(177, 30);
             this.Button_Enviar.TabIndex = 11;
@@ -99,7 +102,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(67, 225);
+            this.label1.Location = new System.Drawing.Point(68, 225);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(157, 20);
             this.label1.TabIndex = 10;
@@ -108,6 +111,7 @@
             // textBox_paraulaSeguretat
             // 
             this.textBox_paraulaSeguretat.Location = new System.Drawing.Point(68, 259);
+            this.textBox_paraulaSeguretat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_paraulaSeguretat.Name = "textBox_paraulaSeguretat";
             this.textBox_paraulaSeguretat.Size = new System.Drawing.Size(172, 26);
             this.textBox_paraulaSeguretat.TabIndex = 9;
@@ -170,7 +174,9 @@
             this.groupBox2.Controls.Add(this.LabelContrasenya);
             this.groupBox2.Controls.Add(this.LabelNom);
             this.groupBox2.Location = new System.Drawing.Point(34, 372);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Size = new System.Drawing.Size(544, 310);
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
@@ -179,6 +185,7 @@
             // Button_Login
             // 
             this.Button_Login.Location = new System.Drawing.Point(38, 244);
+            this.Button_Login.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Button_Login.Name = "Button_Login";
             this.Button_Login.Size = new System.Drawing.Size(142, 41);
             this.Button_Login.TabIndex = 4;
@@ -189,6 +196,7 @@
             // textBox_Contrasenya
             // 
             this.textBox_Contrasenya.Location = new System.Drawing.Point(38, 192);
+            this.textBox_Contrasenya.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Contrasenya.Name = "textBox_Contrasenya";
             this.textBox_Contrasenya.Size = new System.Drawing.Size(230, 26);
             this.textBox_Contrasenya.TabIndex = 3;
@@ -196,6 +204,7 @@
             // textBox_Nom
             // 
             this.textBox_Nom.Location = new System.Drawing.Point(38, 104);
+            this.textBox_Nom.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_Nom.Name = "textBox_Nom";
             this.textBox_Nom.Size = new System.Drawing.Size(230, 26);
             this.textBox_Nom.TabIndex = 2;
@@ -212,7 +221,7 @@
             // LabelNom
             // 
             this.LabelNom.AutoSize = true;
-            this.LabelNom.Location = new System.Drawing.Point(34, 63);
+            this.LabelNom.Location = new System.Drawing.Point(34, 62);
             this.LabelNom.Name = "LabelNom";
             this.LabelNom.Size = new System.Drawing.Size(42, 20);
             this.LabelNom.TabIndex = 0;
@@ -229,7 +238,9 @@
             this.groupBoxRegister.Controls.Add(this.label3);
             this.groupBoxRegister.Controls.Add(this.label4);
             this.groupBoxRegister.Location = new System.Drawing.Point(610, 36);
+            this.groupBoxRegister.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBoxRegister.Name = "groupBoxRegister";
+            this.groupBoxRegister.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBoxRegister.Size = new System.Drawing.Size(567, 311);
             this.groupBoxRegister.TabIndex = 13;
             this.groupBoxRegister.TabStop = false;
@@ -247,6 +258,7 @@
             // textBox_ParaulaSeguretat2
             // 
             this.textBox_ParaulaSeguretat2.Location = new System.Drawing.Point(304, 192);
+            this.textBox_ParaulaSeguretat2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_ParaulaSeguretat2.Name = "textBox_ParaulaSeguretat2";
             this.textBox_ParaulaSeguretat2.Size = new System.Drawing.Size(230, 26);
             this.textBox_ParaulaSeguretat2.TabIndex = 5;
@@ -254,6 +266,7 @@
             // Button_Registrar
             // 
             this.Button_Registrar.Location = new System.Drawing.Point(38, 244);
+            this.Button_Registrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Button_Registrar.Name = "Button_Registrar";
             this.Button_Registrar.Size = new System.Drawing.Size(142, 41);
             this.Button_Registrar.TabIndex = 4;
@@ -264,6 +277,7 @@
             // textBox_contrasenya2
             // 
             this.textBox_contrasenya2.Location = new System.Drawing.Point(38, 192);
+            this.textBox_contrasenya2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_contrasenya2.Name = "textBox_contrasenya2";
             this.textBox_contrasenya2.Size = new System.Drawing.Size(230, 26);
             this.textBox_contrasenya2.TabIndex = 3;
@@ -271,6 +285,7 @@
             // textBox_nom2
             // 
             this.textBox_nom2.Location = new System.Drawing.Point(38, 104);
+            this.textBox_nom2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_nom2.Name = "textBox_nom2";
             this.textBox_nom2.Size = new System.Drawing.Size(230, 26);
             this.textBox_nom2.TabIndex = 2;
@@ -287,17 +302,41 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 63);
+            this.label4.Location = new System.Drawing.Point(34, 62);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 20);
             this.label4.TabIndex = 0;
             this.label4.Text = "Nom";
+            // 
+            // LlistaConnectats
+            // 
+            this.LlistaConnectats.Location = new System.Drawing.Point(610, 372);
+            this.LlistaConnectats.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.LlistaConnectats.Name = "LlistaConnectats";
+            this.LlistaConnectats.Size = new System.Drawing.Size(307, 29);
+            this.LlistaConnectats.TabIndex = 11;
+            this.LlistaConnectats.Text = "Actualitzar llista de connectats";
+            this.LlistaConnectats.UseVisualStyleBackColor = true;
+            this.LlistaConnectats.Click += new System.EventHandler(this.LlistaConnectats_Click);
+            // 
+            // llistaconnectat
+            // 
+            this.llistaconnectat.FormattingEnabled = true;
+            this.llistaconnectat.ItemHeight = 20;
+            this.llistaconnectat.Location = new System.Drawing.Point(610, 409);
+            this.llistaconnectat.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.llistaconnectat.Name = "llistaconnectat";
+            this.llistaconnectat.Size = new System.Drawing.Size(307, 284);
+            this.llistaconnectat.TabIndex = 14;
+            this.llistaconnectat.SelectedIndexChanged += new System.EventHandler(this.llistaconnectat_SelectedIndexChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1267, 712);
+            this.Controls.Add(this.llistaconnectat);
+            this.Controls.Add(this.LlistaConnectats);
             this.Controls.Add(this.groupBoxRegister);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -340,6 +379,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button Button_Enviar;
+        private System.Windows.Forms.Button LlistaConnectats;
+        private System.Windows.Forms.ListBox llistaconnectat;
     }
 }
 
