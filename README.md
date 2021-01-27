@@ -18,3 +18,5 @@ Version 5 generada por Andreu Melis
 Version 5 verificada por Albert Sánchez
 
 Version Final generada por Toni Gelabert
+
+Version Final verificada por Albert Sánchez
